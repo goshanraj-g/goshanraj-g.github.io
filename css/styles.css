@@ -35,6 +35,7 @@ body {
 .nav-right {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .nav-links {
@@ -45,15 +46,15 @@ body {
   text-decoration: none;
 }
 
-.nav-links li a {
+.nav-links a {
   text-decoration: none;
   color: #c9d1d9;
   font-size: 1rem;
   transition: color 0.3s;
 }
 
-.nav-links li a:hover,
-.nav-links li a.active {
+.nav-links a:hover,
+.nav-links a.active {
   color: #58a6ff; /* Highlight color */
 }
 
@@ -194,13 +195,13 @@ input:checked + .slider:before {
 }
 
 .light-theme .logo,
-.light-theme .nav-links li a,
+.light-theme .nav-links a,
 .light-theme .toggle-container i {
   color: #0d1117;
 }
 
-.light-theme .nav-links li a.active,
-.light-theme .nav-links li a:hover {
+.light-theme .nav-links a.active,
+.light-theme .nav-links a:hover {
   color: #000000;
 }
 
