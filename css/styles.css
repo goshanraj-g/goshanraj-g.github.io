@@ -274,8 +274,7 @@ input:checked + .slider:before {
 .light-theme h1 {
   color: #000000;
 }
-/*** PROJECTS LIGHT THEME ***/
-/* Light Theme Adjustments */
+
 .light-theme .project-card {
   background-color: #ffffff;
   border-color: #e1e4e8;
