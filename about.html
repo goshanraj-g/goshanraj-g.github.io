@@ -1,122 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About - Goshanraj Govindaraj</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
 
-  <body>
-    <header class="navbar">
-      <div class="nav-left">
-        <a href="index.html">Home</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - Goshanraj Govindaraj</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="nav-left">
+      <a href="index.html">Home</a>
+    </div>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="about.html" class="active">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="files/SWE_Resume_Goshanraj_Govindaraj.pdf">Resume</a>
+        <div class="toggle-container">
+          <i class="fas fa-sun"></i>
+          <label class="switch">
+            <input type="checkbox" id="theme-toggle" />
+            <span class="slider round"></span>
+          </label>
+          <i class="fas fa-moon"></i>
+        </div>
       </div>
-      <div class="nav-right">
-        <div class="nav-links">
-          <a href="about.html" class="active">About Me</a>
-          <a href="projects.html">Projects</a>
-          <a href="files/SWE_Resume_Goshanraj_Govindaraj.pdf">Resume</a>
-          <div class="toggle-container">
-            <i class="fas fa-sun"></i>
-            <label class="switch">
-              <input type="checkbox" id="theme-toggle" />
-              <span class="slider round"></span>
-            </label>
-            <i class="fas fa-moon"></i>
+    </div>
+  </header>
+
+  <section class="about-section">
+    <div class="centered-heading">
+      <h1>
+        Building Tomorrow's Solutions<span class="blinking-cursor">|</span>
+      </h1>
+    </div>
+    </div>
+
+    <div class="about-grid">
+
+      <div class="about-card">
+        <div class="card-content">
+          <img src="images/mcmaster.png" alt="McMaster" class="card-icon" />
+          <h3>Computer Science</h3>
+          <p>McMaster University</p>
+          <div class="tech-stack">
+            <span>JavaScript</span>
+            <span>React.js</span>
+            <span>Node.js</span>
+            <span>SQL</span>
+            <span>Python</span>
+            <span>C</span>
+            <span>Linux/UNIX</span>
+            <span>C++</span>
+            <span>Git</span>
           </div>
         </div>
       </div>
-    </header>
 
-    <section class="about-section">
-        <div class="centered-heading">
-          <h1>
-            Building Tomorrow's Solutions<span class="blinking-cursor">|</span>
-          </h1>
-        </div>
-      </div>
-
-      <div class="about-grid">
-
-        <div class="about-card">
-            <div class="card-content">
-              <img src="images/mcmaster.png" alt="McMaster" class="card-icon" />
-              <h3>Computer Science</h3>
-              <p>McMaster University</p>
-              <div class="tech-stack">
-                <span>JavaScript</span>
-                <span>React.js</span>
-                <span>Node.js</span>
-                <span>SQL</span>
-                <span>Python</span>
-                <span>C</span>
-                <span>Linux/UNIX</span>
-                <span>C++</span>
-                <span>Git</span>
-              </div>
-            </div>
-          </div>
-
-        <!-- Experience Card -->
-        <div class="about-card">
-          <div class="card-content">
-            <img src="images/gdg.png" alt="GDG" class="card-icon" />
-            <h3>Developer Advocate</h3>
-            <p>Google Developer Groups</p>
-            <div class="tech-stack">
+      <!-- Experience Card -->
+      <div class="about-card">
+        <div class="card-content">
+          <img src="images/gdg.png" alt="GDG" class="card-icon" />
+          <h3>Developer Advocate</h3>
+          <p>Google Developer Groups</p>
+          <div class="tech-stack">
             <span>Open-Source Development</span>
             <span>Leadership</span>
-              <span>Community Building</span>
-              <span>Collaboration</span>
-            </div>
+            <span>Community Building</span>
+            <span>Collaboration</span>
           </div>
         </div>
+      </div>
 
-
-
-
-        <!-- Fitness Card -->
-        <div class="about-card">
-          <div class="card-content">
-            <img src="images/gym.png" alt="Fitness" class="card-icon" />
-            <h3>Fitness</h3>
-            <div class="tech-stack">
-              <span>Nutrition</span>
-              <span>Strength Training</span>
-            </div>
+      <!-- Fitness Card -->
+      <div class="about-card">
+        <div class="card-content">
+          <img src="images/gym.png" alt="Fitness" class="card-icon" />
+          <h3>Fitness</h3>
+          <div class="tech-stack">
+            <span>Nutrition</span>
+            <span>Strength Training</span>
           </div>
         </div>
-        <div class="about-card">
-            <div class="card-content">
-              <img src="images/cd.png" alt="Music" class="card-icon" />
-              <h3>Music Enthusiast</h3>
-  
-            </div>
-          </div>
       </div>
 
+      <!-- Music Card -->
+      <div class="about-card">
+        <div class="card-content">
+          <img src="images/cd.png" alt="Music" class="card-icon" />
+          <h3>Music Enthusiast</h3>
 
-
-      <div class="social-icons">
-        <a href="https://github.com/goshanraj-g" target="_blank"
-          ><i class="fab fa-github"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/goshanrajgovindaraj/"
-          target="_blank"
-          ><i class="fab fa-linkedin"></i
-        ></a>
-        <a href="mailto:goshanraj.g@gmail.com" target="_blank"
-          ><i class="fas fa-envelope"></i
-        ></a>
+        </div>
       </div>
-    </section>
+    </div>
 
-    <script src="script/script.js"></script>
-  </body>
+
+
+    <div class="social-icons">
+      <a href="https://github.com/goshanraj-g" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/goshanrajgovindaraj/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:goshanraj.g@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+    </div>
+  </section>
+
+  <script src="script/script.js"></script>
+</body>
+
 </html>
