@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="nav-left">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="nav-right">
+            <div class="nav-links">
+                <a href="#experience">Experience</a>
+                <a href="projects.html" class="active">Projects</a>
+                <a href="#resume">Resume</a>
+                <div class="toggle-container">
+                    <i class="fas fa-sun"></i>
+                    <label class="switch">
+                        <input type="checkbox" id="theme-toggle" />
+                        <span class="slider round"></span>
+                    </label>
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="projects-section">
+        <div class="projects-container">
+            <h1 class="section-title">My Projects</h1>
+            
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio Website</h3>
+                        <p class="project-description">
+                            A responsive personal portfolio website showcasing projects, skills, 
+                            and experience with theme switching functionality.
+                        </p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Voyager</h3>
+                        <p class="project-description">
+                            An SMS based healthcare bot enabling critical medical access for 
+                            remote populations.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Flask</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more project cards as needed -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Social Engineering Co-Pilot</h3>
+                        <p class="project-description">
+                            A real-time social engineering detection system utilizing OpenAI's API
+                            to analyze communication patters and identify social engineering. 
+
+                            
+                        </p>
+                        <div class="tech-stack">
+                            <span>Flask</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
