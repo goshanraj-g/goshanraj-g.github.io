@@ -1,16 +1,20 @@
 /***********************
   GENERAL STYLES
  ***********************/
- * {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #0d1117; /* Dark background */
-  color: #c9d1d9;           /* Light text */
+  font-family: 'Poppins', sans-serif;
+  background-color: #0d1117;
+  /* Dark background */
+  color: #c9d1d9;
+  /* Light text */
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -22,7 +26,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #161b22; /* Slightly different dark shade */
+  background-color: #161b22;
+  /* Slightly different dark shade */
 }
 
 .nav-left .logo {
@@ -30,6 +35,11 @@ body {
   color: #58a6ff;
   text-decoration: none;
   font-weight: bold;
+}
+
+.logo img {
+  height: 150px;
+  width: 150px;
 }
 
 .nav-right {
@@ -42,20 +52,38 @@ body {
   list-style: none;
   display: flex;
   gap: 1.5rem;
-  margin-right: 2rem;
+  margin-right: 0rem;
   text-decoration: none;
 }
 
 .nav-links a {
   text-decoration: none;
-  color: #c9d1d9;
+  color: #181818;
   font-size: 1rem;
-  transition: color 0.3s;
+  transition: all 0.3s;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: #c2c2c2c4;
+  /* GitHub-like green */
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(240, 246, 252, 0.1);
 }
 
-.nav-links a:hover,
+.nav-links a:hover {
+  background-color: #767575;
+  /* Lighter green */
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
 .nav-links a.active {
-  color: #58a6ff; /* Highlight color */
+  background-color: #424242;
+  /* Bright green */
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /***********************
@@ -108,11 +136,11 @@ body {
   border-radius: 50%;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: #58a6ff;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   transform: translateX(20px);
 }
 
@@ -124,7 +152,8 @@ input:checked + .slider:before {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: calc(100vh - 72px); /* full height minus navbar height */
+  height: calc(100vh - 72px);
+  /* full height minus navbar height */
 }
 
 .hero-content {
@@ -170,10 +199,14 @@ input:checked + .slider:before {
 /***********************
   PROFILE PIC
  ***********************/
- 
-.profile-pic{
-  padding-bottom:5%;
-} 
+
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
 .profile-pic img {
   border-radius: 10%;
   width: 200px;
@@ -191,18 +224,28 @@ input:checked + .slider:before {
 }
 
 .light-theme .navbar {
-  background-color: #ffffff; /* Light navbar */
+  background-color: #ffffff;
+  /* Light navbar */
+}
+
+.light-theme .nav-links a {
+  background-color: #58a6ff;
+  /* GitHub-like blue */
+  color: #ffffff;
+  border: 1px solid rgba(240, 246, 252, 0.2);
 }
 
 .light-theme .logo,
-.light-theme .nav-links a,
 .light-theme .toggle-container i {
   color: #0d1117;
 }
 
-.light-theme .nav-links a.active,
 .light-theme .nav-links a:hover {
-  color: #000000;
+  background-color: #79b8ff;
+}
+
+.light-theme .nav-links a.active {
+  background-color: #0366d6;
 }
 
 .light-theme .slider {
