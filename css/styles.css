@@ -21,7 +21,7 @@ body {
   background-color: #161b22;
 }
 
-.about-me{
+.about-me {
   width: 108px;
 }
 
@@ -268,89 +268,72 @@ input:checked + .slider:before {
   object-fit: cover;
   border: 2px solid #ffffff;
 }
-
 .light-theme {
-  background-color: #e7eff7;
-  color: #0d1117;
+  background-color: #f4f7fa;
+  color: #1a1a1a;
 }
-
 .light-theme .navbar {
   background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
-
 .light-theme .nav-left a,
 .light-theme .nav-links a {
-  color: #0d1117;
-  background-color: #f0f0f0;
+  color: #1a1a1a;
+  background-color: #e2e8f0;
 }
-
 .light-theme .nav-left a::before,
 .light-theme .nav-left a::after,
 .light-theme .nav-links a::before,
 .light-theme .nav-links a::after {
-  background-color: #0d1117;
+  background-color: #0f766e;
 }
-
 .light-theme .nav-left a.active,
 .light-theme .nav-links a.active {
-  background-color: #0d1117;
+  background-color: #0f766e;
   color: #ffffff;
 }
-
 .light-theme .toggle-container i {
-  color: #0d1117;
+  color: #1a1a1a;
 }
-
 .light-theme .profile-pic img {
-  border: 2px solid #000000;
+  border: 2px solid #1a1a1a;
 }
-
 .light-theme h1 {
-  color: #000000;
+  color: #1a1a1a;
 }
-
 .light-theme .project-card {
   background-color: #ffffff;
-  border-color: #e1e4e8;
+  border-color: #e2e8f0;
 }
-
 .light-theme .project-title {
-  color: #0366d6;
+  color: #0f766e;
 }
-
 .light-theme .project-description {
-  color: #586069;
+  color: #4b5563;
 }
-
 .light-theme .tech-stack span {
-  background-color: #ddf4ff;
-  color: #0366d6;
+  background-color: #ccfbf1;
+  color: #0f766e;
 }
-
 .light-theme .project-link {
   background-color: #f6f8fa;
-  color: #0366d6;
+  color: #0f766e;
 }
-
 .light-theme .project-link:hover {
-  background-color: #e1e4e8;
+  background-color: #e2e8f0;
 }
-
 .light-theme .about-card {
   background-color: #ffffff;
-  border-color: #e1e4e8;
+  border-color: #e2e8f0;
 }
-
-.light-theme .about-section .centered-heading h1{
-  color:black;
+.light-theme .about-section .centered-heading h1 {
+  color: #1a1a1a;
 }
-
 .light-theme .about-card h3 {
-  color: #0366d6;
+  color: #0f766e;
 }
-
 .light-theme .about-card p {
-  color: #586069;
+  color: #4b5563;
 }
 
 .projects-section {
