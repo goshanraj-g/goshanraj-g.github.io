@@ -341,6 +341,10 @@ input:checked + .slider:before {
   border-color: #e1e4e8;
 }
 
+.light-theme .about-section .centered-heading h1{
+  color:black;
+}
+
 .light-theme .about-card h3 {
   color: #0366d6;
 }
@@ -413,7 +417,7 @@ input:checked + .slider:before {
 
 .tech-stack span {
   background-color: #238636;
-  color: #ffffff;
+  color: #000000;
   padding: 0.3rem 0.7rem;
   border-radius: 15px;
   font-size: 0.8rem;
