@@ -30,7 +30,7 @@ This is a personal portfolio website for showcasing projects, skills, and experi
 |   |-- SWE_Resume_Goshanraj_Govindaraj.pdf  # Resume file
 ```
 
-## Live Demo
+## Demo
 The portfolio is hosted online and accessible at: [goshanraj-g.github.io/](https://goshanraj-g.github.io/)
 
 ## Contact
