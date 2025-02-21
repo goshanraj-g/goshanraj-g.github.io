@@ -30,13 +30,15 @@ This is a personal portfolio website for showcasing projects, skills, and experi
 |   |-- SWE_Resume_Goshanraj_Govindaraj.pdf  # Resume file
 ```
 
-##Live Demo
+## Live Demo
 The portfolio is hosted online and accessible at: [GitHub Pages]([url](https://goshanraj-g.github.io/))
 
-##Contact
+## Contact
 For any inquiries, feel free to reach out:
 
-GitHub: [goshanraj-g]([**url**](https://github.com/goshanraj-g))
-LinkedIn: [Goshanraj Govindaraj]([**url**](https://www.linkedin.com/in/goshanrajgovindaraj/))
+GitHub: [goshanraj-g](https://github.com/goshanraj-g)
+
+LinkedIn: [Goshanraj Govindaraj](https://www.linkedin.com/in/goshanrajgovindaraj/)
+
 Email: [goshanraj.g@gmail.com](goshanraj.g@gmail.com)
 
