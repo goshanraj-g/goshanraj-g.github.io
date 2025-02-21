@@ -23,7 +23,7 @@ This is a personal portfolio website for showcasing projects, skills, and experi
 |-- projects.html      # Projects showcase
 |-- css/
 |   |-- styles.css     # Stylesheet for the website
-|-- images/            # Logo and profile picture assets
+|-- images/            # All images utilized
 |-- script/
 |   |-- script.js      # JavaScript for theme toggle and interactivity
 |-- files/
