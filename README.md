@@ -31,7 +31,7 @@ This is a personal portfolio website for showcasing projects, skills, and experi
 ```
 
 ## Live Demo
-The portfolio is hosted online and accessible at: [GitHub Pages]([url](https://goshanraj-g.github.io/))
+The portfolio is hosted online and accessible at: [goshanraj-g.github.io/](https://goshanraj-g.github.io/)
 
 ## Contact
 For any inquiries, feel free to reach out:
@@ -40,5 +40,5 @@ GitHub: [goshanraj-g](https://github.com/goshanraj-g)
 
 LinkedIn: [Goshanraj Govindaraj](https://www.linkedin.com/in/goshanrajgovindaraj/)
 
-Email: [goshanraj.g@gmail.com](goshanraj.g@gmail.com)
+Email: [goshanraj.g@gmail.com](mailto:goshanraj.g@gmail.com)
 
