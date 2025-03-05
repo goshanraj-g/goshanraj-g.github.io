@@ -53,7 +53,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 function setupTypingEffect() {
     const title = "Software Engineer";
     let charIndex = 0;
-    const typeSpeed = 100;
+    const typeSpeed = 75;
     const headerElement = document.querySelector('.hero-content h2');
     if (!headerElement) return;
 
