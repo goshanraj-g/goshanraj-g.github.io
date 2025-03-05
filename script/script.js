@@ -176,8 +176,8 @@ function setupParticleBackground() {
                 vx: Math.random() * 2 - 1,
                 vy: Math.random() * 2 - 1,
                 color: isDarkTheme
-                    ? `rgba(255, 255, 255, ${Math.random() * 0.3 + 0.1})`
-                    : `rgba(15, 118, 110, ${Math.random() * 0.3 + 0.1})`,
+                    ? `rgba(255, 255, 255, ${Math.random() * 0.4 + 0.1})`
+                    : `rgba(15, 118, 110, ${Math.random() * 0.4 + 0.1})`,
             });
         }
     }
@@ -196,8 +196,8 @@ function setupParticleBackground() {
                 if (distance < 100) {
                     ctx.beginPath();
                     ctx.strokeStyle = isDarkTheme
-                        ? `rgba(255, 255, 255, ${0.1 * (1 - distance / 100)})`
-                        : `rgba(15, 118, 110, ${0.1 * (1 - distance / 100)})`;
+                        ? `rgba(255, 255, 255, ${0.2 * (1 - distance / 100)})`
+                        : `rgba(15, 118, 110, ${0.2 * (1 - distance / 100)})`;
                     ctx.lineWidth = 0.5;
                     ctx.moveTo(p.x, p.y);
                     ctx.lineTo(p2.x, p2.y);
