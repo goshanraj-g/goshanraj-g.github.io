@@ -54,26 +54,31 @@ function setupTypingEffect() {
   const title = "Software Engineer";
   let charIndex = 0;
   const typeSpeed = 100;
-  const headerElement = document.querySelector('.hero-content h2');
+  const headerElement = document.querySelector(".hero-content h2");
   if (!headerElement) return;
-  
+
   headerElement.innerHTML = "";
-  
+
   function type() {
     if (charIndex < title.length) {
-      headerElement.innerHTML = title.substring(0, charIndex + 1) + '<span class="blinking-cursor">|</span>';
+      headerElement.innerHTML =
+        title.substring(0, charIndex + 1) +
+        '<span class="blinking-cursor">|</span>';
       charIndex++;
       setTimeout(type, typeSpeed);
     } else {
-      headerElement.innerHTML = title + '<span class="blinking-cursor">|</span>';
+      headerElement.innerHTML =
+        title + '<span class="blinking-cursor">|</span>';
     }
   }
-  
+
   type();
 }
 
 function setupScrollReveal() {
-  const revealElements = document.querySelectorAll(".project-card, .about-card");
+  const revealElements = document.querySelectorAll(
+    ".project-card, .about-card"
+  );
   const revealOptions = {
     threshold: 0.1,
     rootMargin: "0px 0px -50px 0px",
@@ -95,14 +100,17 @@ function setupScrollReveal() {
     revealObserver.observe(element);
   });
 
-  document.head.insertAdjacentHTML("beforeend", `
+  document.head.insertAdjacentHTML(
+    "beforeend",
+    `
     <style>
       .revealed {
         opacity: 1 !important;
         transform: translateY(0) !important;
       }
     </style>
-  `);
+  `
+  );
 }
 
 function setupProjectInteraction() {
@@ -192,7 +200,9 @@ function setupParticleBackground() {
       ctx.fill();
       for (let j = i + 1; j < particles.length; j++) {
         let p2 = particles[j];
-        let distance = Math.sqrt(Math.pow(p.x - p2.x, 2) + Math.pow(p.y - p2.y, 2));
+        let distance = Math.sqrt(
+          Math.pow(p.x - p2.x, 2) + Math.pow(p.y - p2.y, 2)
+        );
         if (distance < 100) {
           ctx.beginPath();
           ctx.strokeStyle = isDarkTheme
@@ -248,9 +258,12 @@ function setupScrollProgressBar() {
   document.body.appendChild(progressBar);
 
   window.addEventListener("scroll", () => {
-    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    const scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
-    const clientHeight = document.documentElement.clientHeight || window.innerHeight;
+    const scrollTop =
+      document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight =
+      document.documentElement.scrollHeight || document.body.scrollHeight;
+    const clientHeight =
+      document.documentElement.clientHeight || window.innerHeight;
     const scrolled = (scrollTop / (scrollHeight - clientHeight)) * 100;
     progressBar.style.width = scrolled + "%";
   });
